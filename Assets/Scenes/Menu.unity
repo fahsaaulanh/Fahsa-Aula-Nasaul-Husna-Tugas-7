@@ -222,6 +222,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4361518947610900023, guid: c354ea71afdcf884f82fa00beb0d53d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c354ea71afdcf884f82fa00beb0d53d7, type: 3}
 --- !u!1 &367080409
@@ -441,6 +445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playAudioButton: {fileID: 1709404119}
   _playNoAudioButton: {fileID: 567194650}
+  _atlas: {fileID: 100100200, guid: 5e02e7a45a8698648a8dce1b3c282bec, type: 3}
 --- !u!1 &711285098
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +720,10 @@ PrefabInstance:
     - target: {fileID: 5499622844135788344, guid: 8eb62d6f64a2c0d418e8d612e6d1e79b, type: 3}
       propertyPath: m_Name
       value: PlayWithBGMButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5499622844135788349, guid: 8eb62d6f64a2c0d418e8d612e6d1e79b, type: 3}
+      propertyPath: m_Sprite
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5499622844135788350, guid: 8eb62d6f64a2c0d418e8d612e6d1e79b, type: 3}
       propertyPath: m_Transition
